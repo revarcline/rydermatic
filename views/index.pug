@@ -1,6 +1,5 @@
-doctype=html
-html
-    head
-        title oh how clever
-    body
-        h1 this can work nicely
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
