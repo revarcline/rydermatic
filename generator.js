@@ -1,6 +1,3 @@
-const fs = require('fs');
+let namedata = require('./names.json');
 
-let namedata = fs.readFileSync('names.json');
-let names = JSON.parse(namedata);
-
-console.log(names);
+console.log(namedata);
