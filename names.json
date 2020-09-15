@@ -41,8 +41,8 @@
     "Bash",
     "Slam",
     "Chunk",
-    "Cramp",
-  ]
+    "Cramp"
+  ],
   "lastone": [
     "Bulk",
     "Large",
@@ -80,8 +80,8 @@
     "Punch",
     "Blow",
     "Fizzle",
-    "Thrust",
-  ]
+    "Thrust"
+  ],
   "lasttwo": [
     "head",
     "meat",
@@ -116,6 +116,6 @@
     "rod",
     "muscle",
     "beef",
-    "kick",
+    "kick"
   ]
 }

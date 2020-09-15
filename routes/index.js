@@ -19,6 +19,7 @@ function makeName(name_list) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+  console.log(name_data)
   var name = makeName(name_data)
   res.render('index', { title: name });
   next();
