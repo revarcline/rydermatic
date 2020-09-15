@@ -10,11 +10,16 @@ function makeName(name_list) {
   var lastone = name_list.lastone;
   var lasttwo = name_list.lasttwo;
 
-  var rand_first = Math.floor(Math.random()*first.length)
-  var rand_lastone = Math.floor(Math.random()*lastone.length)
-  var rand_lasttwo = Math.floor(Math.random()*lasttwo.length)
+  var rfi = Math.floor(Math.random()*first.length)
+  var rlo = Math.floor(Math.random()*lastone.length)
+  var rlt = Math.floor(Math.random()*lasttwo.length)
 
-  return `${first[rand_first]} ${lastone[rand_lastone]}${lasttwo[rand_lasttwo]}`
+
+  if (Math.floor(Math.random() * 20) == 1) {
+    return `${first[rfi]} Mc${lastone[rlo]}${lasttwo[rlt]}!`
+  } else {
+    return `${first[rfi]} ${lastone[rlo]}${lasttwo[rlt]}!`
+  }
 }
 
 /* GET home page. */
