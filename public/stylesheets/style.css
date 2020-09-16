@@ -4,8 +4,9 @@ body {
 
 a {
   color: #00B7FF;
-  text-decoration: none;
-  hover: #22B7FF; }
+  text-decoration: none; }
+  a:hover {
+    color: #22B7FF; }
 
 h1 {
   font-size: 9vw;
@@ -24,7 +25,9 @@ h3 {
   margin-left: 20%; }
 
 .reload {
-  float: right; }
+  position: absolute;
+  float: right;
+  right: 7%; }
 
 .credit {
   position: absolute;
