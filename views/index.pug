@@ -1,5 +1,18 @@
 extends layout
 
 block content
-  h2 Here comes...
+  h2 here comes
   h1= title
+  if title == "Bob Johnson!"
+    div.bob
+      h3 oh, wait...
+
+  div.reload
+    h2
+      a new name
+
+  div.credit
+    h3
+      | rydermatic by 
+      a(href="https://www.twitter.com/arcline")  alex cline
+      | .
