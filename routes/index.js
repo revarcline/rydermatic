@@ -30,7 +30,7 @@ function makeName(name_list) {
 router.get('/', function(req, res, next) {
   console.log(name_data);
   var name = makeName(name_data);
-  res.render('index', { title: "Bob Johnson!" });
+  res.render('index', { title: name });
   next();
 });
 
