@@ -1,12 +1,13 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Cantarell, Arial, sans-serif; }
+  font: 14px system-ui, -apple-system, "Lucida Grande", Helvetica, Cantarell, Arial, sans-serif; }
 
 a {
   color: #00B7FF;
   text-decoration: none; }
   a:hover {
-    color: #22B7FF; }
+    text-decoration: underline;
+    color: #55B7FF; }
 
 h1 {
   font-size: 9vw;
