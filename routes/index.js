@@ -1,8 +1,11 @@
 var express = require('express');
+var favicon = require('serve-favicon')
 var router = express.Router();
 
 // load names.json file
 let name_data = require('../names.json');
+
+express().use(favicon('./public/images/favicon.ico'))
 
 // parse names.json file for name primitives, generate three-part name
 function makeName(name_list) {
