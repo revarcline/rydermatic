@@ -1,10 +1,10 @@
 /* imports */
-@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
 /* content */
 body {
   padding: 50px;
-  font: 14px 'Fugaz One', system-ui, -apple-system, "Lucida Grande", Helvetica, Cantarell, Arial, sans-serif; }
+  font: 14px 'Gafata', system-ui, -apple-system, "Lucida Grande", Helvetica, Cantarell, Arial, sans-serif; }
 
 a {
   color: #00B7FF;
@@ -13,7 +13,7 @@ a {
     text-decoration: underline; }
 
 h1 {
-  font: 8vw 'Bowlby One SC';
+  font: 8vw 'Patua One';
   margin: 0px; }
 
 h2 {
@@ -25,8 +25,8 @@ h3 {
   color: grey; }
 
 .bob {
-  font-family: 'Bowlby One SC';
-  margin-top: -5px;
+  font-family: 'Patua One';
+  margin: -5px;
   margin-left: 20%; }
 
 .reload {

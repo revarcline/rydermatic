@@ -34,6 +34,8 @@ router.get('/', function(req, res, next) {
   console.log(name_data);
   var name = makeName(name_data);
   res.render('index', { title: name });
+  // to test bob layout:
+  // res.render('index', { title: 'Bob Johnson!' });
   next();
 });
 
