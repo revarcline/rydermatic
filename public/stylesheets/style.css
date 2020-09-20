@@ -1,6 +1,10 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+/* content */
 body {
   padding: 50px;
-  font: 14px system-ui, -apple-system, "Lucida Grande", Helvetica, Cantarell, Arial, sans-serif; }
+  font: 14px 'Suez One', system-ui, -apple-system, "Lucida Grande", Helvetica, Cantarell, Arial, sans-serif; }
 
 a {
   color: #00B7FF;
@@ -9,7 +13,7 @@ a {
     text-decoration: underline; }
 
 h1 {
-  font-size: 9vw;
+  font: 8vw 'Bowlby One SC';
   margin: 0px; }
 
 h2 {
